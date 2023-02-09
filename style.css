@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(0, 3, 3);
+    text-align: center;
+    margin-top: 40px;
+}
+#div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px;
+    width: 980px;
+    gap: 1px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-grow: 0;
+    
+}
+.div {
+    width: 40px;
+    height: 40px;
+    
+    gap: 15px;
+    
+}
+#user-btn {
+    color: rgb(253, 106, 21);
+    padding: 10px;
+    margin-top: 20p;
+    border: 5px rgb(253, 106, 21) solid;
+    border-radius: 2.5px;
+    background-color: hsl(0, 100%, 0%); 
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+
+}
+#user-btn:hover {
+    color: rgb(246, 246, 106);
+}
+
+#new-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px;
+    width: 980px;
+    gap: 1px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+.new-div{
+    width: 40px;
+    height: 40px;
+    gap: 15px;
+}
+
